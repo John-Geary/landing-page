@@ -1,6 +1,7 @@
 * {
   padding-left: 0;
   margin: 0;
+  font-family: "Hero New";
 }
 
 .header {
@@ -12,13 +13,17 @@
   padding-left: 200px;
   padding-right: 200px;
 }
+
+body {
+  text-align: center;
+}
+
 .logo {
   font-family: sans-serif;
   font-size: 24px;
   color: #f9faf8;
 }
 a {
-  font-family: "Hero New";
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
@@ -43,7 +48,6 @@ ul {
 }
 
 h1 {
-  font-family: "Hero New";
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
@@ -55,7 +59,6 @@ img {
 }
 
 .about p {
-  font-family: "Hero New";
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -67,11 +70,36 @@ img {
 .signup {
   background-color: #3882f6;
   color: #e5e7eb;
-  font-family: "Hero New";
+
   font-size: 18px;
   font-weight: bold;
   border: none;
   padding: 10px 40px;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 50px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
 }
